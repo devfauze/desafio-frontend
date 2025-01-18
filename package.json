@@ -1,0 +1,23 @@
+{
+  "name": "desafio-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "var_sum": "node dist/variavel_soma/var_sum.js",
+    "fibonacci": "node dist/fibonacci/fibonacci.js",
+    "daily_revenue": "node dist/revenues/daily_revenue/daily_revenue_stast.js",
+    "state_percentage": "node dist/revenues/state_percentage/state_percentage_stats.js",
+    "invert_string": "node dist/invert_string/invert_string.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
